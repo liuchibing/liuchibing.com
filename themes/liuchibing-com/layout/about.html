@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<%- partial('_partial/head', {title: page.title, sitename: config.name}) %>
+	{% include head.html %}
 </head>
 
 <body>
@@ -19,8 +19,11 @@
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<main class="col">
+	  <div class="row">
+	    <div class="col-12 col-md-3">
+	      <img class="mb-2 about-selfie" src="{{ site.baseurl }}/images/me_small.jpg" alt="刘持冰" />
+	    </div>
+		  <main class="col-12 col-md-9">
 				{{ content }}
 			</main>
 		</div>

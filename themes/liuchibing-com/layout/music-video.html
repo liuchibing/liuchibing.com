@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+  <script defer src="{{ site.baseurl }}/font-awesome/js/fontawesome-all.js"></script>
+</head>
+
+<body>
+
+	{% include header.html %}
+
+	<div class="bg-dark post-bg"></div>
+
+	<div class="container mt-4">
+		<div class="row flex-column flex-lg-row align-items-lg-center">
+			{% include large-brand.html ispost=true %}
+			{% include short-bio.html ispost=true %}
+		</div>
+	</div>
+
+	<div class="container mt-4 mb-4">
+		<div class="card">
+			<div class="row card-body">
+				<main class="col">
+					{% if page.custom-head %}
+					{{ page.custom-head | markdownify }}
+					{% else %}
+					<h1>{{ page.title }}</h1>
+					{% endif %}
+					<p class="text-muted mt-3 mb-0">创作时间：{{ page.date | date: "%Y"}}年</p>
+					<hr class="mt-1" />
+					{% if page.video-src %}
+					{% include embed-video.html src=page.video-src %}
+					{% endif %}
+					{{ content }}
+				</main>
+			</div>
+			<div class="d-flex flex-column card-footer">
+				{% if page.previous %}
+				<a class="mr-auto" href="{{ site.baseurl }}{{ page.previous.url }}"><i class="fas fa-arrow-left mr-1"></i>上一篇 <span class="text-muted">{{ page.previous.title }}</span></a>
+				{% endif %}
+				{% if page.next %}
+				<a class="ml-auto" href="{{ site.baseurl }}{{ page.next.url }}"><span class="text-muted">{{ page.next.title }}</span> 下一篇<i class="fas fa-arrow-right ml-1"></i></a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+	
+	{% include scripts.html %}
+
+</body>
+
+</html>

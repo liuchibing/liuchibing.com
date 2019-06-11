@@ -1,36 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <%- partial('google-analytics') %>
-  <%
-  var title = page.title;
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="刘持冰,刘持冰作曲,刘持冰作品,作曲,作品,中央音乐学院附中,{{ page.title }},{{ page.categories }}">
 
-  if (is_archive()){
-    title = __('archive_a');
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="Bookmark" href="/favicon.ico">
 
-    if (is_month()){
-      title += ': ' + page.year + '/' + page.month;
-    } else if (is_year()){
-      title += ': ' + page.year;
-    }
-  } else if (is_category()){
-    title = __('category') + ': ' + page.category;
-  } else if (is_tag()){
-    title = __('tag') + ': ' + page.tag;
-  }
-  %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-  <% if (theme.rss){ %>
-    <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
-  <% } %>
-  <% if (theme.favicon){ %>
-    <link rel="icon" href="<%- theme.favicon %>">
-  <% } %>
-  <% if (config.highlight.enable){ %>
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <% } %>
-  <%- css('css/style') %>
-</head>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/animate.min.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+
+<title><%= title %><% if (title) { %> - <% } %><%= sitename %></title>
