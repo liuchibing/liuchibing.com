@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand sps sps--abv d-none" href="<%- url_for('/') %>">
+    <img src="<%- url_for('/icon.png') %>" width="30" height="30" alt="刘持冰">
+    <span>刘持冰</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item<% if(is_home()) { %> active<% } %>">
+        <a class="nav-link" href="<%- url_for('/') %>">首页{% if page.home %}
+          <span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+      <li class="nav-item<% if(is_category('original')) { %> active<% } %>">
+        <a class="nav-link" href="<%- url_for('/music/original') %>">原创音乐{% if page.original %}
+          <span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+      <li class="nav-item{% if page.about %} active{% endif %}">
+        <a class="nav-link" href="<%- url_for('/about') %>">关于{% if page.about %}
+          <span class="sr-only">(current)</span>{% endif %}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

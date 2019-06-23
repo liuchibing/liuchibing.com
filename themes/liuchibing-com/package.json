@@ -1,12 +1,38 @@
 {
-  "name": "hexo-theme-landscape",
-  "version": "0.0.2",
-  "private": true,
+  "name": "liuchibing-com",
+  "version": "1.0.0",
+  "description": "theme of my website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-s build",
+    "build": "run-p css js",
+    "css": "run-s css-compile css-prefix",
+    "css-compile": "node-sass --output-style compressed --include-path source/assets/_bootstrap_source -o source/assets/css source/assets/_sass",
+    "css-prefix": "postcss -u autoprefixer -r source/assets/css/custom.css",
+    "js": "uglifyjs source/assets/js/custom.js -c -m -o source/assets/js/custom.min.js",
+    "watch": "run-p watch-css watch-js",
+    "watch-css": "onchange source/assets/_sass/*.scss -- npm run css",
+    "watch-js": "onchange source/assets/js/custom.js -- npm run js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuchibing/liuchibing.ml.git"
+  },
+  "author": "liuchibing",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/liuchibing/liuchibing.ml/issues"
+  },
+  "homepage": "https://github.com/liuchibing/liuchibing.ml",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "load-grunt-tasks": "~0.2.0",
-    "grunt-git": "~0.2.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.4.1"
+    "autoprefixer": "^9.6.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "onchange": "^6.0.0",
+    "postcss-cli": "^6.1.2",
+    "rimraf": "^2.6.2",
+    "uglify-js": "^3.3.10"
   }
 }

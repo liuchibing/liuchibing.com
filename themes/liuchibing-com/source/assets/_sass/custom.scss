@@ -1,0 +1,92 @@
+@import "bootstrap-4.3.1/scss/functions";
+@import "bootstrap-4.3.1/scss/variables";
+@import "bootstrap-4.3.1/scss/mixins";
+
+//for fixed navbar
+body {
+    padding-top: 3.5rem;
+}
+
+.remove-a-style {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.large-brand {
+    @extend .remove-a-style;
+
+    img {
+        height: 8rem;
+        margin: 0 15px 0 15px;
+    }
+}
+.post-brand {
+    img {
+        height: 5rem;
+    }
+}
+
+.round-selfie {
+    height: 3rem;
+}
+@include media-breakpoint-up(lg) {
+    .round-selfie {
+	    height: 5rem;
+    }
+    .post-round-selfie {
+        height: 4rem;
+    }
+}
+
+.social-icon {
+    height: 1rem;
+    margin-right: 0.25rem;
+}
+
+.post-bg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 15.5+5rem;
+}
+@include media-breakpoint-up(lg) {
+    .post-bg {
+        height: 11.5+5rem;
+    }
+}
+
+.about-selfie {
+    width: 50%;
+}
+@include media-breakpoint-up(lg) {
+    .embed-responsive {
+        width: 75%;
+    }
+    
+    .about-selfie {
+	width: 100%;
+    }
+}
+
+
+//======================Animations=======================================
+
+.sps--abv {
+    animation: fadeOutDown;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+}
+
+.sps--blw {
+    animation-name: fadeInUp;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    display: inline-block;
+}
