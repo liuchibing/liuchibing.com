@@ -1,0 +1,20 @@
+<div class="pt-3 pl-3 pt-lg-0 pl-lg-0 ml-lg-auto">
+    <a href="<%- url_for('/about') %>" class="align-middle">
+        <img src="<%- url_for(config.selfie) %>" class="rounded-circle round-selfie<% if (smallLargeBrand) { %> small-round-selfie<% } %>" alt="<%= config.author %>" />
+    </a>
+    <div class="text-light d-inline-flex flex-column align-middle">
+        <span>
+            <a href="<%- url_for('/about') %>" class="remove-a-style"><%= config.description %></a>
+        </span>
+        <span>
+            <a href="<%- url_for('/about') %>" style="margin-right: 0.5rem;">查看详细</a>
+            访问：
+            <a href="<%= config.weibo %>" data-toggle="tooltip" data-placement="bottom" title="微博">
+                <img src="<%- url_for('/assets/images/weibo.ico') %>" alt="微博" class="social-icon" />
+            </a>
+            <a href="<%= config.youku %>" data-toggle="tooltip" data-placement="bottom" title="优酷">
+                <img src="<%- url_for('/assets/images/youku.png') %>" alt="优酷" class="social-icon" />
+            </a>
+        </span>
+    </div>
+</div>

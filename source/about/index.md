@@ -1,7 +1,7 @@
 ---
 layout: about
 title: 关于我
-is_about: true
+about: true
 ---
 
 ## 关于我

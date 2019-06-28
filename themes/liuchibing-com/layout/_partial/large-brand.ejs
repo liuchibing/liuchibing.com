@@ -1,0 +1,7 @@
+<a href="<%- url_for('/') %>" class="large-brand<% if (smallLargeBrand) { %> small-large-brand<% } %>" id="large-brand">
+    <img src="<%- url_for('/images/icon.min.svg') %>" class="align-middle" />
+    <div class="d-inline-flex flex-column align-middle">
+        <h1 class="<% if (!smallLargeBrand) { %>display-4<% } %>"><%= config.title %></h1>
+        <span class="lead text-muted"><%= config.subtitle %></span>
+    </div>
+</a>

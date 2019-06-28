@@ -1,7 +1,12 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="刘持冰,刘持冰作曲,刘持冰作品,作曲,作品,中央音乐学院附中<%= (page.title)? ',' + page.title : '' %><%= (page.categories && page.categories.count() > 0)? ',' + page.categories.toArray().join() : '' %><%= (page.tags && page.tags.count() > 0)? ',' + page.tags.toArray().join() : '' %>">
+    <meta name="keywords" content="刘持冰,刘持冰作曲,刘持冰作品,作曲,作品,中央音乐学院附中<%= 
+    (page.title)? ',' + page.title : '' %><%= 
+    (page.categories && page.categories.count() > 0)? ',' + page.categories.toArray().map((item) => data_category_name(item.name)).join() : '' %><%= 
+    (page.tags && page.tags.count() > 0)? ',' + page.tags.toArray().map((item) => data_tag_name(item.name)).join() : '' %><%= 
+    (is_category())? ',' + data_category_name(page.category): '' %><%= 
+    (is_tag())? ',' + data_tag_name(page.tag): '' %>">
 
     <link rel="shortcut icon" href="<%- url_for('/favicon.ico') %>">
     <link rel="Bookmark" href="<%- url_for('/favicon.ico') %>">
@@ -13,6 +18,8 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="<%- url_for('/assets/css/custom.css') %>">
+
+    <script defer src="<%- url_for('/assets/font-awesome/js/fontawesome-all.js') %>"></script>
 
     <title><%- (page.title)? page.title + ' - ' : '' %><%- config.title %></title>
 </head>

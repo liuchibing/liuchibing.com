@@ -4,12 +4,15 @@
 
 # Site
 title: 刘持冰
-subtitle:
+subtitle: Liu Chibing
 description: 中央音乐学院作曲系学生
 keywords: 刘持冰,刘持冰作曲,刘持冰作品,作曲,作品,中央音乐学院
 author: 刘持冰
 language: zh-CN
-timezone:
+timezone: ''
+selfie: /images/me_small_square.jpg
+weibo: http://weibo.com/1721844490/profile
+youku: http://i.youku.com/i/UMTc0MzQ1MDEy
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

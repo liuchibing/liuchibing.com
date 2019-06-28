@@ -25,7 +25,7 @@ body {
         margin: 0 15px 0 15px;
     }
 }
-.post-brand {
+.small-large-brand {
     img {
         height: 5rem;
     }
@@ -38,7 +38,7 @@ body {
     .round-selfie {
 	    height: 5rem;
     }
-    .post-round-selfie {
+    .small-round-selfie {
         height: 4rem;
     }
 }
@@ -48,7 +48,7 @@ body {
     margin-right: 0.25rem;
 }
 
-.post-bg {
+.small-header-bg {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -57,7 +57,7 @@ body {
     height: 15.5+5rem;
 }
 @include media-breakpoint-up(lg) {
-    .post-bg {
+    .small-header-bg {
         height: 11.5+5rem;
     }
 }
