@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <%- partial('_partial/head', null, {cache: !config.relative_link}) %>
+    
+    <body>
+        <%- partial('_partial/navbar', null, {cache: !config.relative_link}) %>
+
+        <% if(is_home() || is_category() || is_tag() || is_archive() || page.about) { %>
+            <%- partial('_partial/large-header', null, {cache: !config.relative_link}) %>
+        <% } else { %>
+            <%- partial('_partial/small-header', null, {cache: !config.relative_link}) %>
+        <% } %>
+        
+        <%- body %>
+
+        <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+
+        <%- partial('_partial/scripts', null, {cache: !config.relative_link}) %>
+    </body>
+</html>

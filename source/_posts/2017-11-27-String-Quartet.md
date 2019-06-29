@@ -1,9 +1,9 @@
 ---
-layout: music-video
 title: 弦乐四重奏
 summary: 
-original: true
-custom-head: |+
+categories:
+    - original-music
+custom_heading: |
     # 弦乐四重奏
-video-src: http://player.youku.com/embed/XMzM3MDA1Nzc4OA==
 ---
+{% embed_video http://player.youku.com/embed/XMzM3MDA1Nzc4OA== %}
