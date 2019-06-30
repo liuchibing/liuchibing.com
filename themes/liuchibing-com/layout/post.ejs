@@ -8,7 +8,13 @@ layout: card-layout
 		<% } else { %>
 		<h1><%- page.title %></h1>
 		<% } %>
-		<p class="text-muted mt-3 mb-0">时间：<%- date(page.date, config.date_format + ' ' + config.time_format) %></p>
+		<p class="text-muted mt-3 mb-0">
+		<% if (page.categories.some((category) => category.name == 'original-music')) { _%>
+			创作时间：<%- date(page.date, 'YYYY') _%>年
+		<% } else { _%>
+			时间：<%- date(page.date, config.date_format + ' ' + config.time_format) %>
+		<% } _%>
+		</p>
 		<hr class="mt-1" />
         <%- page.content %>
 	</main>

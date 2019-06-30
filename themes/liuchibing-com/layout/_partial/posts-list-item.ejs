@@ -1,0 +1,20 @@
+<div class="media">
+	<div class="media-body">
+		<h2>
+			<a href="<%- url_for(post.path) %>"><%= post.title %></a>
+		</h2>
+		<p><%- date(post.date) %></p>
+		<p><%- post.excerpt %></p>
+        <% if (post.categories.count() > 0) { _%>
+        <p>分类: <% post.categories.forEach(function(category) { _%>
+            <a href="<%- url_for(category.path) %>">/<%= data_category_name(category.name) %></a>
+            <% }) _%>
+        </p><% } %>
+        <% if (post.tags.count() > 0) { _%>
+        <p>标签: <% post.tags.forEach(function(tag) { _%>
+            <a href="<%- url_for(tag.path) %>">#<%= data_tag_name(tag.name) %></a>
+            <% }) _%>
+        </p><% } %>
+		<hr />
+	</div>
+</div>

@@ -1,1 +1,22 @@
-index
+<div class="media mb-2">
+	<div class="media-body">
+        <h1><% if (is_home()) { _%>
+            最新发表
+            <%_ } else if (is_category()) { _%>
+                分类: <%= data_category_name(page.category) _%>
+            <% } else if (is_tag()) { _%>
+                标签: <%= data_tag_name(page.tag) _%>
+            <% } else if (is_archive()) { _%>
+                归档<%= (page.year)? ': ' + page.year + '年' : '' %><%= (page.month)? page.month + '月' : '' _%>
+            <% } _%>
+        </h1>
+	</div>
+</div>
+<%- partial('_partial/posts-list', {posts: page.posts}, {cache: !config.relative_link}) %>
+<nav class="pagination">
+    <div class="page-item"></div>
+    <%- paginator({
+      prev_text: '<i class="fas fa-arrow-left mr-1"></i>上一页',
+      next_text: '下一页<i class="fas fa-arrow-right ml-1"></i>'
+    }) %>
+</nav>

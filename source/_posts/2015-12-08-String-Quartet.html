@@ -1,6 +1,5 @@
 ---
 title: 弦乐四重奏
-summary: 
 categories:
     - original-music
 custom_heading: |

@@ -1,0 +1,13 @@
+---
+layout: base-layout
+---
+<div class="container">
+	  <div class="row">
+	    <div class="col-12 col-md-3">
+	      <img class="mb-2 about-selfie" src="<%- url_for(config.large_selfie) %>" alt="<%- config.author %>" />
+	    </div>
+	    <main class="col-12 col-md-9">
+			<%- page.content %>
+		</main>
+	</div>
+</div>

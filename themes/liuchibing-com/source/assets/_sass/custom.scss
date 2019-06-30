@@ -75,6 +75,20 @@ body {
     }
 }
 
+//====================Pagination Styles==============================
+
+@import "bootstrap-4.3.1/scss/pagination";
+.page-number, .extend {
+    @extend .page-link;
+}
+.current.page-number { // CAUTION: these rules are copied from "bootstrap-4.3.1/scss/pagination"!
+           // DO NOT FORGET to update these rules when updating bootstrap.
+    z-index: 1;
+    color: $pagination-active-color;
+    background-color: $pagination-active-bg;
+    border-color: $pagination-active-border-color;
+}
+
 
 //======================Animations=======================================
 

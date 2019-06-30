@@ -1,7 +1,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="刘持冰,刘持冰作曲,刘持冰作品,作曲,作品,中央音乐学院附中<%= 
+    <meta name="keywords" content="<%= config.keywords %><%= 
     (page.title)? ',' + page.title : '' %><%= 
     (page.categories && page.categories.count() > 0)? ',' + page.categories.toArray().map((item) => data_category_name(item.name)).join() : '' %><%= 
     (page.tags && page.tags.count() > 0)? ',' + page.tags.toArray().map((item) => data_tag_name(item.name)).join() : '' %><%= 
@@ -21,5 +21,13 @@
 
     <script defer src="<%- url_for('/assets/font-awesome/js/fontawesome-all.js') %>"></script>
 
-    <title><%- (page.title)? page.title + ' - ' : '' %><%- config.title %></title>
+    <title><% if (page.title) { _%>
+        <%= page.title + ' - ' _%>
+    <% } else if (is_category()) { _%>
+        <%= data_category_name(page.category) + ' - ' _%>
+    <% } else if (is_tag()) { _%>
+        <%= data_tag_name(page.tag) + ' - ' _%>
+    <% } else if (is_archive()) { _%>
+        归档<%= (page.year)? ': ' + page.year + '年' : '' %><%= (page.month)? page.month + '月' : '' %> - <% } _%>
+    <%- config.title %></title>
 </head>
