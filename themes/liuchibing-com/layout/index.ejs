@@ -1,17 +1,7 @@
-<div class="media mb-2">
-	<div class="media-body">
-        <h1><% if (is_home()) { _%>
-            最新发表
-            <%_ } else if (is_category()) { _%>
-                分类: <%= data_category_name(page.category) _%>
-            <% } else if (is_tag()) { _%>
-                标签: <%= data_tag_name(page.tag) _%>
-            <% } else if (is_archive()) { _%>
-                归档<%= (page.year)? ': ' + page.year + '年' : '' %><%= (page.month)? page.month + '月' : '' _%>
-            <% } _%>
-        </h1>
-	</div>
-</div>
+---
+layout: layout
+---
+<%- partial('_partial/index-heading', null, {cache: !config.relative_link}) %>
 <%- partial('_partial/posts-list', {posts: page.posts}, {cache: !config.relative_link}) %>
 <nav class="pagination">
     <div class="page-item"></div>

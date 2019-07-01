@@ -1,3 +1,3 @@
-<% posts.each(function(post) { %>
+<% posts.forEach(function(post) { %>
     <%- partial('_partial/posts-list-item', {post: post}, {cache: !config.relative_link}) %>
 <% }) %>

@@ -15,26 +15,26 @@
           <span class="sr-only">(current)</span><% } %></a>
       </li>
 
-      <% site.categories.each(function(item) { %>
+      <% site.categories.forEach(function(item) { %>
         <li class="nav-item<% if(is_category(item.name) || (is_post() && page.categories.some((category) => category.name == item.name))) { %> active<% } %>">
-            <a class="nav-link" href="<%- url_for(item.path) %>"><%= data_category_name(item.name) %><% if(is_category(item.name)) { %>
-              <span class="sr-only">(current)</span><% } %></a>
+            <a class="nav-link" href="<%- url_for(item.path) %>">
+              <%= data_category_name(item.name) %><% if(is_category(item.name)) { %><span class="sr-only">(current)</span><% } %>
+            </a>
         </li>
       <% }) %>
 
       <li class="nav-item<% if(page.about) { %> active<% } %>">
-        <a class="nav-link" href="<%- url_for('/about') %>">关于<% if(page.about) { %>
-          <span class="sr-only">(current)</span><% } %></a>
+        <a class="nav-link" href="<%- url_for('/about') %>">关于<% if(page.about) { %><span class="sr-only">(current)</span><% } %></a>
       </li>
     </ul>
 
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown<% if(is_tag()) { %> active<% } %>">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTags" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          标签
+          标签<% if(is_tag()) { %><span class="sr-only">(current)</span><% } %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownTags">
-          <% site.tags.each(function(item) { %>
+          <% site.tags.forEach(function(item) { %>
           <a class="dropdown-item<% if(is_tag(item.name)) { %> active<% } %>" href="<%- url_for(item.path) %>"><%= data_tag_name(item.name) %><% if(is_tag(item.name)) { %>
               <span class="sr-only">(current)</span><% } %></a>
           <% }) %>
@@ -47,6 +47,5 @@
       </li>
     </ul>
 
-    </ul>
   </div>
 </nav>

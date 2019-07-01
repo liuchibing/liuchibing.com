@@ -1,0 +1,31 @@
+---
+layout: layout
+---
+<%- partial('_partial/index-heading', null, {cache: !config.relative_link}) %>
+<% if (page.year === undefined) { %>
+    <% create_archives_map(site.posts.sort('date', -1)).forEach(function(months, year) { %>
+        <h2><a href="<%- url_for(config.archive_dir + '/' + year) %>" class="text-muted small"><%= year %>年</a></h2>
+        <% months.forEach(function(posts, month) { %>
+            <h3><a href="<%- url_for(config.archive_dir + '/' + year + '/' + month.toString().padStart(2, '0')) %>" class="text-muted small"><%= month %>月</a></h3>
+        <% }) %>
+        <hr />
+    <% }) %>
+<% } else { %>
+    <% create_archives_map(page.posts).forEach(function(months, year) { %>
+        <h2><a href="<%- url_for(config.archive_dir + '/' + year) %>" class="text-muted small"><%= year %>年</a></h2>
+        <% months.forEach(function(posts, month) { %>
+            <h3><a href="<%- url_for(config.archive_dir + '/' + year + '/' + month.toString().padStart(2, '0')) %>" class="text-muted small"><%= month %>月</a></h3>
+           <hr />
+           <%- partial('_partial/posts-list', {posts: posts}, {cache: !config.relative_link}) %>
+       <% }) %>
+    <% }) %>
+<% } %>
+<% if (page.year !== undefined) { %>
+    <nav class="pagination">
+        <div class="page-item"></div>
+        <%- paginator({
+          prev_text: '<i class="fas fa-arrow-left mr-1"></i>上一页',
+          next_text: '下一页<i class="fas fa-arrow-right ml-1"></i>'
+        }) %>
+    </nav>
+<% } %>
