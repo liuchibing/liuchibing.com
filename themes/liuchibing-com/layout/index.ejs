@@ -1,8 +1,8 @@
 ---
 layout: layout
 ---
-<%- partial('_partial/index-heading', null, {cache: !config.relative_link}) %>
-<%- partial('_partial/posts-list', {posts: page.posts}, {cache: !config.relative_link}) %>
+<%- partial('_partial/index-heading', null, {cache: false}) %>
+<%- partial('_partial/posts-list', {posts: page.posts}, {cache: false}) %>
 <nav class="pagination">
     <div class="page-item"></div>
     <%- paginator({

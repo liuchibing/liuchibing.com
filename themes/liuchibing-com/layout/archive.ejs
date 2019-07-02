@@ -1,7 +1,7 @@
 ---
 layout: layout
 ---
-<%- partial('_partial/index-heading', null, {cache: !config.relative_link}) %>
+<%- partial('_partial/index-heading', null, {cache: false}) %>
 <% if (page.year === undefined) { %>
     <% create_archives_map(site.posts.sort('date', -1)).forEach(function(months, year) { %>
         <h2><a href="<%- url_for(config.archive_dir + '/' + year) %>" class="text-muted small"><%= year %>年</a></h2>
@@ -16,7 +16,7 @@ layout: layout
         <% months.forEach(function(posts, month) { %>
             <h3><a href="<%- url_for(config.archive_dir + '/' + year + '/' + month.toString().padStart(2, '0')) %>" class="text-muted small"><%= month %>月</a></h3>
            <hr />
-           <%- partial('_partial/posts-list', {posts: posts}, {cache: !config.relative_link}) %>
+           <%- partial('_partial/posts-list', {posts: posts}, {cache: false}) %>
        <% }) %>
     <% }) %>
 <% } %>
