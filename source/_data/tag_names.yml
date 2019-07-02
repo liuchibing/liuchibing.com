@@ -1,1 +1,22 @@
 piano: 钢琴
+violin: 小提琴
+viola: 中提琴
+violoncello: 大提琴
+flute: 长笛
+clarinet: 单簧管
+oboe: 单簧管
+horn: 圆号
+trumpet: 小号
+marimba: 马林巴
+pipa: 琵琶
+
+strings: 弦乐
+woodwinds: 木管
+brasses: 铜管
+percussions: 打击乐
+chinese-national-instruments: 中国民乐
+
+solo: 独奏
+ensemble: 重奏
+chamber: 室内乐
+orchestra: 管弦乐
