@@ -33,7 +33,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTags" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           标签<% if(is_tag()) { %><span class="sr-only">(current)</span><% } %>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownTags">
+        <div class="dropdown-menu pre-scrollable" aria-labelledby="navbarDropdownTags">
           <% site.tags.forEach(function(item) { %>
           <a class="dropdown-item<% if(is_tag(item.name)) { %> active<% } %>" href="<%- url_for(item.path) %>"><%= data_tag_name(item.name) %><% if(is_tag(item.name)) { %>
               <span class="sr-only">(current)</span><% } %></a>
