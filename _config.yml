@@ -88,3 +88,5 @@ deploy:
   type: git
   repo: git@git.dev.tencent.com:liuchibing/liuchibing.com.git
   branch: coding-pages
+  ignore-hidden:
+    public: false
