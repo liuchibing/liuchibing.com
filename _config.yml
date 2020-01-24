@@ -93,4 +93,4 @@ deploy:
 include:
   - ".nojekyll"
 
-html-minifier:
+html_minifier:
