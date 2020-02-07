@@ -81,9 +81,9 @@ body {
 .page-number, .extend {
     @extend .page-link;
 }
-.current.page-number { // CAUTION: these rules are copied from "bootstrap-4.3.1/scss/pagination"!
+.current.page-number { // CAUTION: these rules are copied from "bootstrap-4.4.1/scss/_pagination.scss" line 45-50!
            // DO NOT FORGET to update these rules when updating bootstrap.
-    z-index: 1;
+    z-index: 3;
     color: $pagination-active-color;
     background-color: $pagination-active-bg;
     border-color: $pagination-active-border-color;
