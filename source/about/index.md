@@ -15,4 +15,5 @@ about: true
 2014年 {% post_link Lake-Light 《湖光》（为单簧管与钢琴而作） %}在中央音乐学院 Julia Liu 作曲比赛中获得三等奖。  
 2015年 在 International Piano Point Festival Competition 钢琴比赛中获得专业B组一等奖。  
 2015年 师从刘长远教授学习作曲。  
-2017年 {% post_link Rivulet-in-Mountains 《山溪》（为长笛与钢琴五重奏的六重奏而作） %})在美国 The Webster University Community Music School 2017 Young Composer Competition 比赛中获得 Level 1 的二等奖。
+2017年 {% post_link Rivulet-in-Mountains 《山溪》（为长笛与钢琴五重奏的六重奏而作） %}在美国 The Webster University Community Music School 2017 Young Composer Competition 比赛中获得 Level 1 的二等奖。  
+2019年 考入中央音乐学院作曲系。师从朱赫副教授。
