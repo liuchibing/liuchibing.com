@@ -86,7 +86,7 @@ theme: liuchibing-com
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.dev.tencent.com:liuchibing/liuchibing.com.git
+  repo: git@e.coding.net:liuchibing/liuchibing.com.git
   branch: coding-pages
   ignoreHidden: false
 
