@@ -7,6 +7,7 @@
     (page.tags && page.tags.count() > 0)? ',' + page.tags.toArray().map((item) => data_tag_name(item.name)).join() : '' %><%= 
     (is_category())? ',' + data_category_name(page.category): '' %><%= 
     (is_tag())? ',' + data_tag_name(page.tag): '' %>">
+    <meta name="description" content="<%= (is_home() || is_category() || is_tag() || is_archive() || page.about) ? config.title + ', ' + config.description : page.excerpt %>">
 
     <link rel="shortcut icon" href="<%- url_for('/favicon.ico') %>">
     <link rel="Bookmark" href="<%- url_for('/favicon.ico') %>">
