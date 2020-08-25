@@ -2,115 +2,273 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.liuchibing.com/about/index.html</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.liuchibing.com/concert2018/index.html</loc>
     
-    <lastmod>2020-02-14T03:16:38.926Z</lastmod>
+    <lastmod>2020-02-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/concert2017/index.html</loc>
     
-    <lastmod>2020-02-14T03:12:53.726Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/about/index.html</loc>
-    
-    <lastmod>2020-02-13T13:18:54.879Z</lastmod>
+    <lastmod>2020-02-14</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2019/07/01/Mountain-Rain/</loc>
     
-    <lastmod>2020-01-24T06:15:43.679Z</lastmod>
+    <lastmod>2020-01-24</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2013/12/05/Discovery-Tour/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2013/12/06/Love-In-The-Stormy-Night/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/2014/10/11/The-Butterflys-Dream/</loc>
-    
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/2014/05/08/Waiting/</loc>
-    
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/2014/12/14/Lake-Light/</loc>
-    
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/2017/05/10/Northwest/</loc>
-    
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/2017/11/27/String-Quartet/</loc>
-    
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2015/12/08/String-Quartet/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/2016/05/24/Rivulet-in-Mountains/</loc>
+    <loc>http://www.liuchibing.com/2014/10/11/The-Butterflys-Dream/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/2018/06/05/Xing-Lu-Nan/</loc>
+    <loc>http://www.liuchibing.com/2014/05/08/Waiting/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/2014/12/14/Lake-Light/</loc>
+    
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2016/10/24/Scenes/</loc>
     
-    <lastmod>2019-08-22T13:22:53.483Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/2018/06/05/Xing-Lu-Nan/</loc>
+    
+    <lastmod>2019-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/2016/05/24/Rivulet-in-Mountains/</loc>
+    
+    <lastmod>2019-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/2017/05/10/Northwest/</loc>
+    
+    <lastmod>2019-08-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/2017/11/27/String-Quartet/</loc>
+    
+    <lastmod>2019-08-22</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.liuchibing.com/2013/04/30/The-Last-Diary/</loc>
     
-    <lastmod>2019-08-22T13:22:53.482Z</lastmod>
+    <lastmod>2019-08-22</lastmod>
     
+  </url>
+  
+
+  <url>
+    <loc>http://www.liuchibing.com/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/piano/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/solo/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/strings/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/violin/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/ensemble/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/viola/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/violoncello/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/clarinet/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/woodwinds/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/flute/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/oboe/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/horn/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/trumpet/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/marimba/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/brasses/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/percussions/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/chinese-national-instruments/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/orchestra/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/pipa/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.liuchibing.com/tags/chamber/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://www.liuchibing.com/categories/original-music/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   
 </urlset>
