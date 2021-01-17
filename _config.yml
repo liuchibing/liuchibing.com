@@ -14,6 +14,7 @@ round_selfie: /images/me_small_square.jpg
 large_selfie: /images/me_small.jpg
 weibo: http://weibo.com/1721844490/profile
 youku: http://i.youku.com/i/UMTc0MzQ1MDEy
+bilibili: https://space.bilibili.com/28851589/
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
