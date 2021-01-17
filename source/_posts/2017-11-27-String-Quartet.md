@@ -11,4 +11,4 @@ tags:
 custom_heading: |
     # 弦乐四重奏
 ---
-{% embed_video http://player.youku.com/embed/XMzM3MDA1Nzc4OA== %}
+{% embed_video //player.youku.com/embed/XMzM3MDA1Nzc4OA== %}

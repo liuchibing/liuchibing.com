@@ -10,7 +10,7 @@ custom_heading: |
     # 行路难
     ## 为小型民族管弦乐而作
 ---
-{% embed_video http://player.youku.com/embed/XMzgwNjM4ODk5Mg== %}
+{% embed_video //player.youku.com/embed/XMzgwNjM4ODk5Mg== %}
 
 ### 作品介绍
 

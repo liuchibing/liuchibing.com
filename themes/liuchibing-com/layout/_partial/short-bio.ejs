@@ -9,14 +9,17 @@
         <span>
             <a href="<%- url_for('/about') %>" style="margin-right: 0.5rem;">查看详细</a>
             访问：
-            <a href="<%= config.weibo %>" data-toggle="tooltip" data-placement="bottom" title="微博">
-                <img src="<%- url_for('/assets/images/weibo.ico') %>" alt="微博" class="social-icon" />
+            <a href="<%= config.weibo %>" data-toggle="tooltip" data-placement="bottom" title="微博" class="social-icon">
+                <img src="<%- url_for('/assets/images/weibo.ico') %>" alt="微博" />
             </a>
-            <a href="<%= config.youku %>" data-toggle="tooltip" data-placement="bottom" title="优酷">
-                <img src="<%- url_for('/assets/images/youku.png') %>" alt="优酷" class="social-icon" />
+            <a href="<%= config.youku %>" data-toggle="tooltip" data-placement="bottom" title="优酷" class="social-icon">
+                <img src="<%- url_for('/assets/images/youku.png') %>" alt="优酷" />
             </a>
-            <a href="<%= config.bilibili %>" data-toggle="tooltip" data-placement="bottom" title="哔哩哔哩">
-                <img src="<%- url_for('/assets/images/bilibili.ico') %>" alt="哔哩哔哩" class="social-icon" />
+            <a href="<%= config.bilibili %>" data-toggle="tooltip" data-placement="bottom" title="哔哩哔哩" class="social-icon">
+                <img src="<%- url_for('/assets/images/bilibili.ico') %>" alt="哔哩哔哩" />
+            </a>
+            <a href="<%- url_for(config.wechatmp_qrcode) %>" data-toggle="tooltip" data-placement="bottom" title="微信公众号" class="social-icon">
+                <img src="<%- url_for('/assets/images/weixin.ico') %>" alt="微信公众号" />
             </a>
         </span>
     </div>

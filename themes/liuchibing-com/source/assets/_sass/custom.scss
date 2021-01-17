@@ -44,7 +44,10 @@ body {
 }
 
 .social-icon {
-    height: 1rem;
+    img {
+        height: 1rem;
+    }
+    
     margin-right: 0.25rem;
 }
 

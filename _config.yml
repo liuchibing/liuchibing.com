@@ -15,6 +15,7 @@ large_selfie: /images/me_small.jpg
 weibo: http://weibo.com/1721844490/profile
 youku: http://i.youku.com/i/UMTc0MzQ1MDEy
 bilibili: https://space.bilibili.com/28851589/
+wechatmp_qrcode: /images/qrcode_wx.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
