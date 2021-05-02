@@ -1,0 +1,14 @@
+---
+layout: card-layout
+---
+<div class="row card-body">
+	<main class="col">
+		<% if (page.custom_heading) { %>
+		<%- markdown(page.custom_heading) %>
+		<% } else { %>
+		<h1><%- page.title %></h1>
+		<% } %>
+		<hr class="mt-1" />
+        <%- page.content %>
+	</main>
+</div>
