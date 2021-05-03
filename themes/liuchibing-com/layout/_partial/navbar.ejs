@@ -26,6 +26,10 @@
       <li class="nav-item<% if(page.about) { %> active<% } %>">
         <a class="nav-link" href="<%- url_for('/about') %>">关于<% if(page.about) { %><span class="sr-only">(current)</span><% } %></a>
       </li>
+
+      <li class="nav-item<% if(page.harmonyfont) { %> active<% } %>">
+        <a class="nav-link" href="<%- url_for('/harmonyfont') %>">和声标记字体<% if(page.harmonyfont) { %><span class="sr-only">(current)</span><% } %></a>
+      </li>
     </ul>
 
     <ul class="navbar-nav ml-auto">
