@@ -158,14 +158,14 @@
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/tags/strings/</loc>
+    <loc>http://www.liuchibing.com/tags/violin/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/tags/violin/</loc>
+    <loc>http://www.liuchibing.com/tags/violoncello/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -179,7 +179,7 @@
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/tags/violoncello/</loc>
+    <loc>http://www.liuchibing.com/tags/strings/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -200,14 +200,14 @@
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/tags/flute/</loc>
+    <loc>http://www.liuchibing.com/tags/viola/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.liuchibing.com/tags/viola/</loc>
+    <loc>http://www.liuchibing.com/tags/flute/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -284,6 +284,13 @@
   </url>
   
   <url>
+    <loc>http://www.liuchibing.com/tags/vocal/</loc>
+    <lastmod>2021-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.liuchibing.com/tags/concerto/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
@@ -292,13 +299,6 @@
   
   <url>
     <loc>http://www.liuchibing.com/tags/electronic-organ/</loc>
-    <lastmod>2021-07-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.liuchibing.com/tags/vocal/</loc>
     <lastmod>2021-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
