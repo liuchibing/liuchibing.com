@@ -14,3 +14,5 @@ about: true
  {% post_link Lake-Light 《湖光》（为单簧管与钢琴而作） %}在中央音乐学院 Julia Liu 作曲比赛中获得三等奖。
 2017年，{% post_link Rivulet-in-Mountains 《山溪》（为长笛与钢琴五重奏的六重奏而作） %}在美国 The Webster University Community Music School 2017 Young Composer Competition 比赛中获得 Level 1 的二等奖。
 2019年，作品《忆·酒泉——大漠随想》为琵琶与小型管弦乐队而作，在CCTV中国器乐电视大赛上由弹拨组获奖者樊之琳演奏，引起广泛关注。
+2021年，作品《夏夜即事》和《秋日黄昏》在2021“敦煌奖”中国民族室内乐新作品展评活动中分别获得铜奖和优秀作品奖。
+同年，童声合唱《定风波》在首届“央音蓓蕾杯”优秀童声合唱作品征集活动中获得三等奖。
