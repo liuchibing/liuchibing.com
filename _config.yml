@@ -89,8 +89,8 @@ theme: liuchibing-com
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@e.coding.net:liuchibing/liuchibing.com.git
-  branch: coding-pages
+  repo: git@github.com:liuchibing/liuchibing.com.git
+  branch: gh-pages
   ignoreHidden: false
 
 include:
