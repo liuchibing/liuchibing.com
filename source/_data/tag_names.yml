@@ -8,7 +8,10 @@ oboe: 双簧管
 horn: 圆号
 trumpet: 小号
 marimba: 马林巴
+
 pipa: 琵琶
+ruan: 阮
+dizi: 笛子
 
 strings: 弦乐
 woodwinds: 木管
@@ -22,7 +25,9 @@ chamber: 室内乐
 orchestra: 管弦乐
 
 vocal: 声乐
+chorus: 合唱
 
 concerto: 协奏曲
 
 electronic-organ: 电子管风琴
+organ: 管风琴
