@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Palatino-OffsetY 优雅地制作总谱开头的乐器名称
-harmonyfont: true
 ---
 
 [点此下载](PalatinoOffsetY-Regular.ttf)
